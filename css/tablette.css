@@ -1,0 +1,95 @@
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .logo {
+    width: 40%;
+  }
+
+  .imglogo {
+    width: 25%;
+  }
+
+  nav {
+    width: 50%;
+    padding-right: 10px;
+  }
+
+  .GPS {
+    width: 6%;
+  }
+
+  .champ {
+    width: 30%;
+  }
+
+  .text {
+    width: 16%;
+  }
+
+  .boxfiltres {
+    font-size: 9px;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .filtres {
+    width: 100%;
+  }
+
+  .icon {
+    padding-top: 0px;
+  }
+
+  .soustexte {
+    gap: 5px;
+  }
+
+  .cercle {
+    width: 3%;
+  }
+
+  aside {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+  }
+
+  .hebergement {
+    height: 925px;
+    flex-direction: column;
+  }
+
+  .hebergementa {
+    width: 100%;
+  }
+
+  .cartea {
+    height: 460px;
+  }
+
+  .boitescartep {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 0px;
+  }
+
+  .cartep {
+    width: 30%;
+    height: 150px;
+    margin-left: 15px;
+    margin-right: 20px;
+  }
+
+  .textep {
+    font-size: 9px;
+  }
+
+  .textea {
+    font-size: 70%;
+  }
+
+  footer {
+    gap: 100px;
+  }
+}

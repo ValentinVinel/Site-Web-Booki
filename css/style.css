@@ -1,0 +1,439 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  max-width: 1400px;
+  /* min-width: 992px; */
+  margin: auto;
+}
+
+img {
+  object-fit: cover;
+}
+
+header {
+  height: 124px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.imglogo {
+  width: 17%;
+  padding-left: 5px;
+  padding-top: 44px;
+}
+
+nav {
+  width: 30%;
+  height: 19px;
+  padding-right: 77px;
+  padding-top: 25px;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sommaire {
+  color: black;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 38px;
+}
+
+.sommaire:hover {
+  color: #0065fc;
+  border-top: 3px solid #0065fc;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+.GPS {
+  width: 4%;
+  height: 49px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: #f2f2f2;
+}
+
+.iGPS {
+  display: flex;
+  /* padding-left: 10px;
+  padding-top: 16px; */
+  align-items: center;
+  justify-content: center;
+  height: 49px;
+}
+
+.recherche {
+  display: flex;
+  flex-direction: row;
+}
+
+.champ {
+  border: 1px solid #f2f2f2;
+  width: 20%;
+  height: 49px;
+  font-size: 20px;
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.text {
+  width: 12%;
+  height: 49px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #0065fc;
+  color: #f2f2f2;
+}
+
+.itext {
+  display: none;
+}
+
+.textR {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 49px;
+  /* padding-left: 12px; */
+}
+
+.filtres {
+  display: flex;
+  flex-wrap: nowrap;
+  /*flex-direction: row;*/
+  align-items: center;
+  /*justify-content: center;*/
+  /* width: 80%; */
+  height: 100px;
+  gap: 15px;
+}
+
+.filtretext {
+  font-size: 14px;
+}
+
+.boitesfiltres {
+  display: flex;
+  width: 90%;
+  gap: 15px;
+}
+
+.moitie1 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.moitie2 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.icon {
+  color: #0065fc;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 24px;
+}
+
+.boxfiltres {
+  display: flex;
+  flex-direction: row;
+  /*align-items: space-around;*/
+  font-size: 11px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  border: 2px solid #f2f2f2;
+  border-radius: 25px;
+  margin: auto;
+  height: 44px;
+}
+
+.boxfiltres:hover {
+  background-color: #deebff;
+  /*box-shadow: 2px 2px 2px black;*/
+}
+
+.soustexte {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.cercle {
+  height: 25px;
+  width: 2%;
+  border: 1px solid #d9d9d9;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  margin-top: 15px;
+}
+
+.fa-info {
+  color: #0065fc;
+}
+
+.hebergement {
+  display: flex;
+  flex-direction: row;
+  height: 630px;
+  gap: 28px;
+}
+
+article {
+  width: 65%;
+  height: 626px;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+}
+
+.theb {
+  padding-top: 3px;
+  padding-left: 25px;
+}
+
+.soustheb {
+  padding-left: 25px;
+  padding-top: 55px;
+}
+
+.boitecarte {
+  height: 420px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.carte {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 28%;
+  height: 210px;
+  margin: auto;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  /*box-shadow: 2px 2px 4px black;*/
+}
+
+.photo {
+  width: 96%;
+  height: 100px;
+  padding-left: 5px;
+  padding-top: 5px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.te {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 100px;
+  /*border: 1px solid black;*/
+}
+
+.texte {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  line-height: 1px;
+  padding-left: 14px;
+}
+
+.etoile {
+  padding-left: 14px;
+  padding-bottom: 9px;
+}
+
+.fa-star {
+  color: #0065fc;
+}
+
+.etoilegris {
+  color: #f2f2f2;
+}
+
+aside {
+  width: 33%;
+  height: 626px;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+}
+
+.titrelogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 25px;
+}
+
+.fa-chart-line {
+  color: #0065fc;
+  padding-top: 25px;
+  padding-right: 25px;
+}
+
+.boitescartep {
+  height: 610px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+}
+
+.imagep {
+  width: 40%;
+}
+.imagep img {
+  width: 100%;
+  height: 139px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+}
+
+/*.photop {
+  width: 106%;
+  height: 139px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+}*/
+
+.cartep {
+  display: flex;
+  background-color: white;
+  width: 95%;
+  /*margin-left: 20px;*/
+  border-radius: 15px;
+  /*box-shadow: 2px 2px 4px black;*/
+}
+
+.texteetoiles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  /*padding-left: 20px;*/
+  /*gap: 23px;*/
+  margin-left: 15px;
+  height: 140px;
+}
+
+.textep {
+  font-size: 70%;
+  gap: 10px;
+}
+.textep h2 {
+  font-size: 14px;
+}
+
+.liencarte {
+  text-decoration: none;
+}
+
+.liencarteh {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.cartea {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 1px 1px 8px black;
+  border-radius: 15px;
+  width: 25%;
+  height: 450px;
+}
+
+.imagea {
+  width: 100%;
+}
+.photoa {
+  width: 100%;
+  height: 390px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.textea {
+  /*font-size: 85%;*/
+  padding-left: 10px;
+}
+
+.boitecartea {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.liencartea {
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  height: 230px;
+  background-color: #f2f2f2;
+}
+
+.foo {
+  display: flex;
+  justify-content: space-around;
+  /*gap: 350px;*/
+  padding-top: 50px;
+  margin-top: 50px;
+  width: 80%;
+}
+.foo li {
+  padding-bottom: 10px;
+}
+
+.foot {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.vide {
+  color: #f2f2f2;
+}
+
+a:visited {
+  color: black;
+}
+
+.textea h2 {
+  font-size: 16px;
+}

@@ -1,0 +1,224 @@
+@media screen and (max-width: 768px) {
+  .logo {
+    display: flex;
+    justify-content: center;
+    /*! width: 100%; */
+  }
+
+  .imglogo {
+    width: 25%;
+  }
+
+  header {
+    flex-direction: column;
+    height: 200px;
+  }
+
+  nav ul {
+    height: 45px;
+    padding-left: 0px;
+  }
+
+  nav {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-right: 0px;
+  }
+
+  nav li {
+    width: 50%;
+    margin: 0;
+    text-align: center;
+    border-bottom: 3px solid #f2f2f2;
+  }
+
+  nav li:hover {
+    color: #0065fc;
+    border-bottom: 3px solid #0065fc;
+    border-top-color: white;
+  }
+
+  .sommaire:hover {
+    border-top-color: white;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .GPS {
+    width: 8%;
+  }
+
+  .champ {
+    width: 30%;
+  }
+  .champ h2 {
+    font-size: 14px;
+  }
+
+  .text {
+    width: 8%;
+  }
+
+  .textR {
+    display: none;
+  }
+
+  .itext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49px;
+  }
+
+  .filtres {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    height: 180px;
+  }
+
+  .filtretext {
+    height: 35px;
+  }
+
+  .boitesfiltres {
+    flex-wrap: wrap;
+    width: 125%;
+  }
+
+  .boxfiltres {
+    width: 50%;
+    align-items: center;
+  }
+
+  .moitie1 {
+    width: 100%;
+  }
+
+  .moitie2 {
+    width: 100%;
+  }
+
+  .icon {
+    font-size: 2em;
+    padding-bottom: 8px;
+  }
+
+  .ft {
+    font-size: 9px;
+  }
+
+  .soustexte {
+    gap: 5px;
+  }
+
+  .cercle {
+    width: 10%;
+  }
+
+  .hebergementa {
+    display: flex;
+    order: 2;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+  }
+
+  .populaires {
+    display: flex;
+    order: 1;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  aside {
+    border-radius: 0px;
+  }
+
+  .hebergement {
+    display: flex;
+    flex-direction: column;
+    height: 2200px;
+  }
+
+  .soust {
+    font-size: 15px;
+  }
+
+  article {
+    width: 100%;
+  }
+
+  .boitecarte {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .soustheb {
+    display: none;
+  }
+
+  .carte {
+    width: 98%;
+    box-shadow: 0px 0px 9px black;
+  }
+
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .photo {
+    padding-left: 0px;
+    width: 98%;
+  }
+
+  .boitecartea {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .cartea {
+    width: 100%;
+    height: 160px;
+  }
+
+  .liencartea {
+    height: 100px;
+  }
+
+  .photoa {
+    height: 100px;
+  }
+
+  footer {
+    height: 520px;
+  }
+
+  .foo {
+    flex-direction: column;
+    gap: 10px;
+    height: 500px;
+    margin-top: 80px;
+    padding-top: 20px;
+  }
+
+  .propos {
+    padding-left: 30px;
+  }
+
+  .nos {
+    padding-left: 30px;
+  }
+
+  .assistance {
+    padding-left: 30px;
+  }
+}
